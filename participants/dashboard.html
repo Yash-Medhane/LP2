@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Participants</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Event Participants</h1>
+      <select id="eventSelect">
+        <option value="">Select an Event</option>
+      </select>
+    </header>
+
+    <div class="stats">
+      <div class="stat-card">
+        <h3>Total Participants</h3>
+        <div class="number" id="totalCount">0</div>
+      </div>
+      <div class="stat-card">
+        <h3>Confirmed</h3>
+        <div class="number" id="confirmedCount">0</div>
+      </div>
+      <div class="stat-card">
+        <h3>Pending</h3>
+        <div class="number" id="pendingCount">0</div>
+      </div>
+    </div>
+
+    <table id="participantsTable">
+      <thead>
+        <tr>
+          <th>Participant</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Registration Date</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="script.js">
+  </script>
+</body>
+</html>

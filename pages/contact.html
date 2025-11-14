@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>EventHub — Contact</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+       <h1 class="brand-title">EventHub</h1>
+      </div>
+
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="events.html" class="nav-link">Events</a>
+        <a href="register.html" class="nav-link">Register</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section container contact-section">
+      <h2>Contact us</h2>
+      <p class="lead">Have a question? Send a message and we'll get back to you.</p>
+
+      <div class="contact-wrap">
+        <form id="contactForm" class="form card">
+          <label for="cname">Name</label>
+          <input id="cname" name="name" type="text" placeholder="Your name" required>
+
+          <label for="cemail">Email</label>
+          <input id="cemail" name="email" type="email" placeholder="you@example.com" required>
+
+          <label for="cmessage">Message</label>
+          <textarea id="cmessage" name="message" rows="5" placeholder="Write your message..." required></textarea>
+
+          <div class="form-actions">
+            <button type="submit" class="btn">Send message</button>
+            <button type="reset" class="btn btn-outline">Reset</button>
+          </div>
+          <p id="contactMessage" class="form-message" aria-live="polite"></p>
+        </form>
+
+        <aside class="contact-info card">
+          <h3>Office</h3>
+          <p>EventHub Office, Tech Park Road, Pune, Maharashtra, India</p>
+          <h4>Phone</h4>
+          <p>+91 98765 43210</p>
+          <h4>Email</h4>
+          <p>support@eventhub.in</p>
+          <h4>Follow</h4>
+          <p><a href="#">Twitter</a> · <a href="#">LinkedIn</a> · <a href="#">Instagram</a></p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div><strong>EventHub</strong><p>Built for students. Powered by community.</p></div>
+    </div>
+  </footer>
+
+</body>
+</html>

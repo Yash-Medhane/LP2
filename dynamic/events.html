@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Events</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <main>
+    <section class="section container events-page">
+      <h2>All Events</h2>
+  
+      <div class="filter-bar">
+        <input type="text" id="searchInput" placeholder="Search events...">
+        <select id="filterSelect">
+          <option value="all">All Categories</option>
+          <option value="Coding">Coding</option>
+          <option value="AI/ML">AI/ML</option>
+          <option value="Design">Design</option>
+          <option value="Talks">Talks</option>
+          <option value="Careers">Careers</option>
+        </select>
+      </div>
+
+      <div class="grid events-full-grid" id="eventsContainer">
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div><strong>EventHub</strong><p>Built for students. Powered by community.</p></div>
+      <div class="footer-links"><a href="index.html">Home</a></div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
