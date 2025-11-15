@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+ body {
+        margin: 0;
+        background: #667eea;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .box {
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        width: 300px;
+        text-align: center;
+      }
+      input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ddd;
+      }
+      button {
+        width: 100%;
+        background: #667eea;
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+      }
+
+.login-page {
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Bigger Login Box */
+.box {
+  background: #fff;
+  padding: 60px;            /* increased padding */
+  border-radius: 14px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.35);
+  width: 420px;             /* increased width */
+  text-align: center;
+  transform: scale(1.03);
+}
+
+/* Inputs */
+.box input {
+  width: 100%;
+  padding: 14px;            /* bigger input */
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.box button {
+  background: #667eea;
+  color: #fff;
+  border: none;
+  padding: 14px;           
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.box button:hover {
+  background: #5563d6;
+}
